@@ -1,3 +1,14 @@
+// Alex Labitigan
+// CPSC 120-12
+// 2022-11-29
+// alexlabitigan@csu.fullerton.edu
+// @auhlz
+//
+// Lab 12-02
+// Partners: @dianasuceli
+//
+// Make message
+//
 
 /* Do not edit below this line. */
 /* Do not edit below this line. */
