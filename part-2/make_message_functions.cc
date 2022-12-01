@@ -1,13 +1,27 @@
-// TODO: Add your header
+// Alex Labitigan
+// CPSC 120-12
+// 2022-11-29
+// alexlabitigan@csu.fullerton.edu
+// @auhlz
+//
+// Lab 12-02
+// Partners: @dianasuceli
+//
+// Make message
+//
 
 #include "make_message_functions.h"
 
 #include <iomanip>
-
-bool HasMatchingFileExtension(const std::string& file_name,
-                              const std::string& extension) {
-  // TODO: Copy and paste the body of the function from Lab 10.
-  return false;
+bool HasMatchingFileExtension(const std::string &file_name,
+                              const std::string &extension) {
+  bool result{false};
+  if (file_name.size() >= extension.size() &&
+      file_name.compare(file_name.size() - extension.size(), extension.size(),
+                        extension) == 0) {
+    result = true;
+  }
+  return result;
 }
 
 // Secret global variable to make the randome number generator
@@ -25,6 +39,7 @@ RandomNumberGenerator rng_coin_flip{-1, 1, rng_seed};
 
 // Returns a random double between o and 1
 double RandomDouble01() {
+  
   // TODO: Using rng_01, call next() and return the next random number.
   return 0;
 }
