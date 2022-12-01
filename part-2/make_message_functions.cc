@@ -38,22 +38,12 @@ RandomNumberGenerator rng_11{-1, 1, rng_seed};
 RandomNumberGenerator rng_coin_flip{-1, 1, rng_seed};
 
 // Returns a random double between o and 1
-double RandomDouble01() {
-  
-  // TODO: Using rng_01, call next() and return the next random number.
-  return 0;
-}
+
+double RandomDouble01() { return rng_01.next(); }
 
 // Returns a random double between -1 and 1
-double RandomDouble11() {
-  // TODO: Using rng_11, call next() and return the next random number.
-  return 0;
-}
+double RandomDouble11() { return rng_11.next(); }
 
 /// Return a True or False depending on a random value.
 /// Generates a random number and then decides to return True or False
-bool CoinFlip() {
-  // TODO: Using rng_coin_flip, call next() and return true if the randome
-  // number is greater than 0.0 and false otherwise.
-  return false;
-}
+bool CoinFlip() { return rng_coin_flip.next() > 0; }
