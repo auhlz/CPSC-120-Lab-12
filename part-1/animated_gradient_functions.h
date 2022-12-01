@@ -1,4 +1,14 @@
-// TODO: Add your header
+// Alex Labitigan
+// CPSC 120-12
+// 2022-11-29
+// alexlabitigan@csu.fullerton.edu
+// @auhlz
+//
+// Lab 12-01
+// Partners: @dianasuceli
+//
+// Animated Gradient Functions
+//
 
 /* Do not edit below this line. */
 /* Do not edit below this line. */
